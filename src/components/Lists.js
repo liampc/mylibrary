@@ -1,14 +1,14 @@
 import React from 'react'
 import Header from './Header'
+import Card from './Card'
 
 const Lists = () => {
     return(
-        <div>
+        <ul>
             <Header />
-            {/* <Table /> */}
-        </div>
+            <Card />
+        </ul>
        
-        
     )
 }
 
