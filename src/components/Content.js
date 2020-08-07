@@ -1,7 +1,7 @@
 import React from 'react'
 import Addbtn from './Addbtn'
 import Forms from './Forms'
-// import Lists from './Lists'
+import Lists from './Lists'
 
 
 const Content = () => {
@@ -9,7 +9,7 @@ const Content = () => {
         <div>
            <Addbtn />
            <Forms />
-           {/* <Lists /> */}
+           <Lists />
         </div>
         
     )
