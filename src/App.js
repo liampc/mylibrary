@@ -1,12 +1,12 @@
 import React from 'react'
-import Header from './components/Header'
+import Banner from './components/Banner'
 import Content from './components/Content'
 
 
 const App = () => {
     return(
         <div>
-            <Header />
+            <Banner />
             <Content />
         </div>
         

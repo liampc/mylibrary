@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Header = () => {
+const Banner = () => {
     return(
         <header>
             <h1>My Library</h1>
@@ -9,4 +9,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Banner
