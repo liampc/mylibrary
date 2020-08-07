@@ -9,6 +9,7 @@ const Forms = () => {
                 <option value="To-Read">To Read</option>
                 <option value="Read">Read</option>
             </select>
+            <button> Save Book</button>
        </form>
     )
 }
