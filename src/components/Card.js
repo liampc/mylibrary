@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Cell = () => {
+const Card = () => {
     return(
         <li class="book-card" data-index="0">
             <span> One Hundred Years of Solitude </span>
@@ -13,4 +13,4 @@ const Cell = () => {
     )
 }
 
-export default Cell
+export default Card
