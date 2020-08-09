@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=B612:wght@700&display=swap');
+
 #root {
     background-color:#f1f1f1b0;
+    font-family: 'B612';
 }
 
 header {
@@ -20,7 +23,7 @@ h1 {
     text-shadow: black 2px;
 }
 
-.div-btn{
+.div-btn {
     display: flex;
     justify-content: center;
     margin: 20px;
@@ -28,9 +31,7 @@ h1 {
     border-bottom: #8080808a solid thin;
 }
 
-#new-btn {
-    width: 20%;
-}
+
 
 button {
     width: 10vw;
@@ -74,4 +75,44 @@ select, option {
     background-color: white;
     border-radius: 2px;
     border: thin;
+}
+
+#new-btn, #save-btn{
+    width: 20%;
+}
+
+.main-section {
+    height: 65vh;
+    margin: 0 10px 0 10px; 
+    background-color:#f1f1f1b0;
+   
+}
+
+
+li {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 25px;
+    grid-template-rows:40px ;
+
+}
+
+span{
+    border: white solid thin ;
+    padding: 10px 20px 10px 20px;
+}
+
+
+.book-header {
+    text-align: center;
+    background-color:#b3afafd9;
+}
+
+.hidden {
+    display: none;
+}
+
+.status-btn, .remove-btn {
+    width: 100%;
+    height: 100%;
+    border: thin solid #8080804f;
 }

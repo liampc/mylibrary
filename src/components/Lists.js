@@ -4,11 +4,12 @@ import Card from './Card'
 
 const Lists = () => {
     return(
-        <ul>
-            <Header />
-            <Card />
-        </ul>
-       
+        <div className={"main-section"}>
+            <ul>
+                <Header />
+                <Card />
+            </ul>
+       </div>
     )
 }
 
