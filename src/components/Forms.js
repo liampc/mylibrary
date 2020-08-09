@@ -2,6 +2,7 @@ import React from 'react'
 
 const Forms = () => {
     return (
+    <div className={"input-forms"}>
        <form>
             <input type="text" name="add-title" id="input-title" placeholder="Title" />
             <input type="text" name="add-author" id="input-author" placeholder="Author" />
@@ -11,6 +12,7 @@ const Forms = () => {
             </select>
             <button> Save Book</button>
        </form>
+    </div>
     )
 }
 
