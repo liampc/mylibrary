@@ -2,9 +2,9 @@ import React from 'react'
 
 const Addbtn = () => {
     return (
-        <>
-            <button> Add Book</button>
-        </>
+        <div className={"div-btn"}>
+            <button id={"new-btn"}> Add Book</button>
+        </div>
     )
 }
 

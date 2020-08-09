@@ -1,3 +1,6 @@
+#root {
+    background-color:#f1f1f1b0;
+}
 
 header {
     background-position: center;
@@ -15,4 +18,24 @@ h1 {
     font-family: 'B612';
     color:white;
     text-shadow: black 2px;
+}
+
+.div-btn{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    border-bottom: #8080808a solid thin;
+}
+
+#new-btn {
+    width: 20%;
+}
+
+button {
+    width: 10vw;
+    height: 30px;
+    background-color: white;
+    border-radius: 2px;
+    border: thin;
 }

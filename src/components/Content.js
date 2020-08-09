@@ -6,11 +6,11 @@ import Lists from './Lists'
 
 const Content = () => {
     return(
-        <div>
+        <>
            <Addbtn />
            <Forms />
            <Lists />
-        </div>
+        </>
         
     )
 }
