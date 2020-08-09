@@ -1,0 +1,18 @@
+
+header {
+    background-position: center;
+    background-size: cover;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px 4px 4px 0px #000000a6;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'B612';
+    color:white;
+    text-shadow: black 2px;
+}
